@@ -41,11 +41,11 @@ export const APP_VERSION: string = typeof __APP_VERSION__ === 'string' ? __APP_V
 
 /**
  * GitHub repository whose latest release drives the "update available" notice.
- * This is our fork, not upstream `siteboon/claudecodeui`: the in-app update only
+ * This is our own repo, not upstream `siteboon/claudecodeui` nor `kuri-dev9/ai-cli`: the in-app update only
  * pulls from this checkout's origin, so an upstream release could never be installed
  * by it. Publish a release here with a tag newer than `package.json` to notify users.
  */
-export const UPDATE_RELEASE_REPO = { owner: 'kuri-dev9', repo: 'ai-cli' } as const;
+export const UPDATE_RELEASE_REPO = { owner: 'ulmsaga', repo: 'agentdeck' } as const;
 
 // ---------------------------
 
