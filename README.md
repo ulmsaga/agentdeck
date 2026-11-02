@@ -42,8 +42,8 @@
 ## 설치
 
 ```bash
-git clone <이 저장소 주소> ai-cli
-cd ai-cli
+git clone https://github.com/ulmsaga/agentdeck.git agentdeck
+cd agentdeck
 ./install.sh
 ```
 

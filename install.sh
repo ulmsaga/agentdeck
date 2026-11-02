@@ -2,7 +2,7 @@
 #
 # AgentDeck 설치 스크립트
 #
-#   git clone <저장소> ai-cli && cd ai-cli && ./install.sh
+#   git clone https://github.com/ulmsaga/agentdeck.git agentdeck && cd agentdeck && ./install.sh
 #   ./install.sh --https     # HTTPS 인증서까지 만들고 .env 에 켜 둡니다
 #
 # 하는 일: Node 확인 → 의존성 설치 → 네이티브 모듈 빌드 승인 → 검증 → .env 생성 → 빌드
