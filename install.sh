@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# AI-CLI 설치 스크립트
+# AgentDeck 설치 스크립트
 #
 #   git clone <저장소> ai-cli && cd ai-cli && ./install.sh
 #   ./install.sh --https     # HTTPS 인증서까지 만들고 .env 에 켜 둡니다
@@ -33,7 +33,7 @@ for arg in "$@"; do
 done
 
 printf "\n%s===============================================%s\n" "$DIM" "$NC"
-printf "  AI-CLI 설치\n"
+printf "  AgentDeck 설치\n"
 printf "%s===============================================%s\n\n" "$DIM" "$NC"
 
 # ---------------------------------------------------------------- 1. 사전 확인

@@ -642,7 +642,7 @@
     },
     "managed": {
       "badge": "Managed",
-      "hint": "Managed by AI-CLI."
+      "hint": "Managed by AgentDeck."
     },
     "help": {
       "title": "About Codex MCP",

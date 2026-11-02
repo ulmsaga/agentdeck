@@ -32,9 +32,9 @@ test('uses the selected Cursor session name as the page title', () => {
 });
 
 test('falls back to the project title when no session is selected', () => {
-  assert.equal(getPageTitle(project, null), 'My Project - AI-CLI UI');
+  assert.equal(getPageTitle(project, null), 'My Project - AgentDeck UI');
 });
 
 test('falls back to the app title when no project or session is selected', () => {
-  assert.equal(getPageTitle(null, null), 'AI-CLI UI');
+  assert.equal(getPageTitle(null, null), 'AgentDeck UI');
 });

@@ -243,7 +243,7 @@ export default function McpServers({ selectedProvider, currentProjects }: McpSer
                     {managed && (
                       <div className="text-xs text-muted-foreground">
                         {t('mcpServers.managed.hint', {
-                          defaultValue: 'Managed by AI-CLI.',
+                          defaultValue: 'Managed by AgentDeck.',
                         })}
                       </div>
                     )}

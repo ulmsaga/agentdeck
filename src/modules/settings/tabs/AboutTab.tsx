@@ -47,7 +47,7 @@ export default function AboutTab() {
               className="text-base font-semibold text-foreground"
               style={{ fontFamily: CLOUDCLI_WORDMARK_FONT_FAMILY }}
             >
-              AI-CLI
+              AgentDeck
             </span>
             <a
               href={releasesUrl}

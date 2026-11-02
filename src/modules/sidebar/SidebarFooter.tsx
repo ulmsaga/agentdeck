@@ -114,7 +114,7 @@ export default function SidebarFooter({
               여기서 남의 저장소로 보내면 혼란스럽다. 출처 고지는 설정 > 정보 화면과
               README, docs/local/UPSTREAM.md 에 남아 있다. */}
           <span className="text-[10px] text-muted-foreground/40">
-            AI-CLI v{currentVersion} – {t('branding.openSource')}
+            AgentDeck v{currentVersion} – {t('branding.openSource')}
           </span>
         </div>
       )}

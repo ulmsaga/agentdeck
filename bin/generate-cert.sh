@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# AI-CLI 로컬 HTTPS 인증서 생성
+# AgentDeck 로컬 HTTPS 인증서 생성
 #
 #   ./bin/generate-cert.sh                 # LAN IP 를 자동으로 찾아 인증서 생성
 #   ./bin/generate-cert.sh 192.168.0.42    # 넣을 IP/호스트를 직접 지정 (여러 개 가능)
@@ -143,7 +143,7 @@ else
     printf 'x509_extensions = v3_req\n'
     printf 'prompt = no\n'
     printf '\n[dn]\n'
-    printf 'CN = AI-CLI Local\n'
+    printf 'CN = AgentDeck Local\n'
     printf '\n[v3_req]\n'
     printf 'basicConstraints = critical, CA:FALSE\n'
     printf 'keyUsage = critical, digitalSignature, keyEncipherment\n'

@@ -1,7 +1,7 @@
 {
   "name": "@cloudcli-ai/cloudcli",
   "version": "1.38.6",
-  "productName": "CloudCLI",
+  "productName": "AgentDeck",
   "description": "A web-based UI for Claude Code CLI",
   "type": "module",
   "main": "dist-server/server/index.js",
@@ -18,13 +18,13 @@
     "scripts/",
     "README.md"
   ],
-  "homepage": "https://cloudcli.ai",
+  "homepage": "https://github.com/ulmsaga/agentdeck",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/siteboon/claudecodeui.git"
+    "url": "git+https://github.com/ulmsaga/agentdeck.git"
   },
   "bugs": {
-    "url": "https://github.com/siteboon/claudecodeui/issues"
+    "url": "https://github.com/ulmsaga/agentdeck/issues"
   },
   "scripts": {
     "dev": "concurrently --kill-others \"npm run server:dev\" \"npm run client\"",
@@ -64,9 +64,9 @@
   },
   "build": {
     "appId": "ai.cloudcli.desktop",
-    "productName": "CloudCLI",
+    "productName": "AgentDeck",
     "asar": false,
-    "artifactName": "cloudcli-desktop-${version}-${os}-${arch}.${ext}",
+    "artifactName": "agentdeck-desktop-${version}-${os}-${arch}.${ext}",
     "directories": {
       "output": "release/desktop"
     },
@@ -85,7 +85,7 @@
     ],
     "protocols": [
       {
-        "name": "CloudCLI",
+        "name": "AgentDeck",
         "schemes": [
           "cloudcli"
         ]
@@ -99,11 +99,11 @@
         "dmg"
       ],
       "extendInfo": {
-        "CFBundleName": "CloudCLI",
-        "CFBundleDisplayName": "CloudCLI",
+        "CFBundleName": "AgentDeck",
+        "CFBundleDisplayName": "AgentDeck",
         "CFBundleURLTypes": [
           {
-            "CFBundleURLName": "CloudCLI",
+            "CFBundleURLName": "AgentDeck",
             "CFBundleURLSchemes": [
               "cloudcli"
             ]

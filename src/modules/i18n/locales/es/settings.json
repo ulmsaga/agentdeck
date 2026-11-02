@@ -498,7 +498,7 @@
     },
     "managed": {
       "badge": "Gestionado",
-      "hint": "Gestionado por AI-CLI."
+      "hint": "Gestionado por AgentDeck."
     },
     "help": {
       "title": "Acerca de MCP en Codex",

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# AI-CLI 실행기. 평소에는 이것만 쓰면 된다.
+# AgentDeck 실행기. 평소에는 이것만 쓰면 된다.
 #
 #   ./run.sh              서버를 켠다 (watchdog 포함)
 #   ./run.sh stop         끈다

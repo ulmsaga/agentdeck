@@ -1,6 +1,6 @@
 {
-  "name": "AI-CLI",
-  "short_name": "AI-CLI",
+  "name": "AgentDeck",
+  "short_name": "AgentDeck",
   "description": "Claude Code를 브라우저에서 쓰는 웹 UI",
   "start_url": "/",
   "display": "standalone",

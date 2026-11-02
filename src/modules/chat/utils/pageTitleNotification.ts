@@ -90,7 +90,7 @@ export const showCompletionTitleIndicator = (): void => {
     return;
   }
 
-  const baseTitle = stripIndicator(document.title || 'AI-CLI UI');
+  const baseTitle = stripIndicator(document.title || 'AgentDeck UI');
   document.title = `${getIndicatorPrefix()}${baseTitle}`;
 
   if (pageIsActive()) {

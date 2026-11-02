@@ -642,7 +642,7 @@
     },
     "managed": {
       "badge": "관리됨",
-      "hint": "AI-CLI가 관리합니다."
+      "hint": "AgentDeck이 관리합니다."
     },
     "help": {
       "title": "Codex MCP 정보",

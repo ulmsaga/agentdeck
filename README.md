@@ -1,4 +1,4 @@
-# AI-CLI
+# AgentDeck
 
 **Claude Code를 브라우저에서 쓰는 웹 UI.**
 
